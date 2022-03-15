@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.top>* {
+.top>*, .information>* {
     max-width: 800px;
     width: 100%;
 }
@@ -88,4 +88,38 @@ a {
 .heroImage {
     background-color: gray;
     align-self: stretch;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 30px;
+}
+
+.informationCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.card {
+    width: 160px;
+}
+
+.card img {
+    display: block;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
