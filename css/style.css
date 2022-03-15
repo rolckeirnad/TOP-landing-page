@@ -40,3 +40,39 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.hero {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+.heroText, .heroImage {
+    flex: 1;
+}
+
+.heroText h1{
+    font-weight: 900;
+}
+
+.heroText > * {
+    padding: 5px 0;
+}
+
+.heroText button {
+    padding: 5px 0;
+    margin: 5px 0;
+    background-color: #3882f6;
+    width: 100px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.heroImage {
+    background-color: gray;
+    align-self: stretch;
+}
