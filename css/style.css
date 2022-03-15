@@ -14,8 +14,13 @@ body {
     align-items: center;
 }
 
-.top>*, .information>*, .quoteSection>* {
+.top>*, .adBackground {
     max-width: 800px;
+    width: 100%;
+}
+
+.information>*, .quoteSection>*, .adContent {
+    max-width: 600px;
     width: 100%;
 }
 
@@ -74,7 +79,7 @@ a {
     padding: 5px 0;
 }
 
-.heroText button {
+button {
     padding: 7px 0;
     margin: 8px 0 5px;
     background-color: #3882f6;
@@ -142,4 +147,39 @@ a {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adBackground{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 80px 0;
+    border-radius: 5px;
+}
+
+.adContent {
+    display: flex;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.adInfo {
+    padding: 40px 0;
+    flex: 1;
+}
+
+.adInfo h5 {
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.adContent button {
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
 }
