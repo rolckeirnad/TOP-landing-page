@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.top>*, .information>* {
+.top>*, .information>*, .quoteSection>* {
     max-width: 800px;
     width: 100%;
 }
@@ -122,4 +122,24 @@ a {
     border: 4px solid #3882f6;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteAuthor {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
