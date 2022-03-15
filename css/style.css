@@ -60,7 +60,7 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    padding: 50px 0;
+    padding: 60px 0 80px;
     gap: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -118,15 +118,21 @@ button {
 }
 
 .card {
-    width: 160px;
+    width: 120px;
 }
 
 .card img {
     display: block;
-    height: 160px;
+    height: 120px;
     border: 4px solid #3882f6;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+.card p {
+    padding: 6px 0;
+    text-align: center;
+    font-size: 14px;
 }
 
 .quoteSection {
@@ -190,4 +196,5 @@ button {
     align-items: center;
     color: #e5e7eb;
     background-color: #1f2937;
+    padding: 40px 0;
 }
